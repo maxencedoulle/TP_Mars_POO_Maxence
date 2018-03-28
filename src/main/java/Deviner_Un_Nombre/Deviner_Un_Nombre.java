@@ -38,7 +38,7 @@ public class Deviner_Un_Nombre {
                 Valrandom = random.nextInt(100);
                 Compteur = 0;
                 while (Valsaisie != Valrandom) {
-                    System.out.println(Valrandom); // Affiche la valeur du Random 
+                    //System.out.println(Valrandom); // Affiche la valeur du Random 
                     while (!sc.hasNextInt()) { // Demande un nombre entier à l'utilisateur 
                         sc.next();
                         System.out.println(" Veuillez entrer un entier !");
